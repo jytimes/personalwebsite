@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia;
+    text-align: left;
+}
+
+.about-box {
+    background-color: black;
+    position: absolute;
+    height: 650px;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-text {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-text {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.divider1 {
+    background-color: white; 
+    height: 4px; /* Height of the line */
+    width: 900px; /* Adjust the width of the divider line */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: Georgia;
+    font-size: 24px;
+    position: relative;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn::after {
+    background-color: white;
+    content: '';
+    position: absolute;
+    height: 1.5px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: center; /* Start underlining from the left */
+    transition: transform 0.5s ease;
+}
+
+.resume-button:hover::after {
+    transform: scaleX(1);
+}
+
+.portfolio-button {
+    cursor: default; /*Remove this after portfolio has been launched */
+}
+
+.portfolio-button:hover::after {
+    transform: scaleX(1);
+}
+
+.blog-button:hover::after {
+    transform: scaleX(1);
+}
+
+.blog-button {
+    cursor: default; /*Remove this after blog has been launched */
+}
+
+.resume-text {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.linkedin {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-text {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blog-text {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.divider2 {
+    background-color: white; /* Color of the line */
+    height: 4px; /* Height of the line */
+    width: 900px; /* Adjust the width of the divider line */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.relevant-courses-text {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+table {
+    background-color: black;
+    width: 80%;
+    margin-left: 20px;
+}
+
+th {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+td {
+    color: #d4d4d4;
+    font-size: 16px;
+    padding: 2px;
+    text-align: left;
+}
