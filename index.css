@@ -1,8 +1,36 @@
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .about-box, .resume-box, .portfolio-box, .blog-box, .course-box {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+/* Styles for medium-sized screens */
+@media (max-width: 767px) {
+    .about-box, .resume-box, .portfolio-box, .blog-box, .course-box {
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+/* Styles for small screens (phones) */
+@media (max-width: 480px) {
+    .about-box, .resume-box, .portfolio-box, .blog-box, .course-box {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+
 body {
     background-color: black;
     color: white;
     font-family: Georgia;
     text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 .about-box {
@@ -136,7 +164,6 @@ table {
 
 th {
     font-size: 20px;
-    font-style: italic;
     font-weight: normal;
 }
 
