@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: Georgia;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -70,21 +70,6 @@ body {
     transform: scaleX(1);
 }
 
-.portfolio-button {
-    cursor: default; /*Remove this after portfolio has been launched */
-}
-
-.portfolio-button:hover::after {
-    transform: scaleX(1);
-}
-
-.blog-button:hover::after {
-    transform: scaleX(1);
-}
-
-.blog-button {
-    cursor: default; /*Remove this after blog has been launched */
-}
 
 .resume-text {
     color: #d4d4d4;
@@ -94,10 +79,6 @@ body {
     margin-bottom: 5px;
 }
 
-.linkedin {
-    color: white;
-    text-decoration: none;
-}
 
 .portfolio-text {
     color: #d4d4d4;
@@ -121,32 +102,6 @@ body {
     width: 100%; /* Adjust the width of the divider line */
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.relevant-courses-text {
-    color: #d4d4d4;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-
-table {
-    background-color: black;
-    width: 80%;
-    margin-left: 20px;
-}
-
-th {
-    font-size: 20px;
-    font-weight: normal;
-}
-
-td {
-    color: #d4d4d4;
-    font-size: 16px;
-    padding: 2px;
-    text-align: left;
 }
 
 
