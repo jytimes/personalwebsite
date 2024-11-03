@@ -1,100 +1,72 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: Times;
-    text-align: left;
-    margin: 0;
-    padding: 0;
+/*---------------------------*/
+/*PERSONAL INFORMATION */
+/*-------------------------*/
+
+.about {
+    align-items: center;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
 }
 
-.about-box {
-    background-color: black;
-    position: absolute;
-    height: 500px;
-    width: 800px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+.name {
+    font-family: Helvetica, sans-serif;
+    font-size: 4.5rem;
+    margin-bottom: 0rem;
 }
 
-.name-text {
-    font-size: 48px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.info {
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
-.about-text {
-    color: #d4d4d4;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
+.blurb {
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem; 
+    font-size: 1rem;
 }
 
-.divider1 {
-    background-color: white; 
-    height: 4px; /* Height of the line */
-    width: 100%; /* Adjust the width of the divider line */
-    margin-top: 10px;
-    margin-bottom: 10px;
+/*---------------------------*/
+/*BLOG INFORMATION */
+/*-------------------------*/
+
+.blog-box {
+    border: 2px solid green;
+    margin-top: 2rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
 }
 
-.btn {
-    background-color: black;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-family: Times;
-    font-size: 24px;
-    position: relative;
+/*---------------------------*/
+/* SIDEBAR AND SIDE BUTTONS */
+/*-------------------------*/
+
+.sidebar {
+    align-items: right;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 
-.btn::after {
+.sideButtons {
     background-color: white;
-    content: '';
-    position: absolute;
-    height: 1.5px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    transform: scaleX(0);
-    transform-origin: left; /* Start underlining from the left */
-    transition: transform 0.8s ease;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.resume-button:hover::after {
-    transform: scaleX(1);
-}
-
-
-.resume-text {
-    color: #d4d4d4;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-
-/* Small screens (Phones) */
-@media (max-width: 314px) {
-    .about-box {
-        width: 95%; /* Adjust width for responsiveness */
-    }
-    .btn {
-        font-size: 18px; /* Adjust font size for phones */
-    }
-}
-
-/* Medium screens (Tablets) */
-@media (max-width: 1300px) {
-    .about-box {
-        width: 95%; /* Adjust width for responsiveness */
-        
-    }
-    .btn {
-        font-size: 20px; /* Adjust font size for tablets */
-}
+.sideButtons:hover {
+    color: rgb(86, 86, 86);
 }
